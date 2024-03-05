@@ -230,10 +230,10 @@ CO@mito = 0.0
 HCHO@cell = 500.0
 
 # Variable species
-c_thf@cytosol = Fol / (2 * 0.75) - (c_5mf + c_2cf + c_1cf + c_10f + dhf)
-#c_thf@cytosol = 13.0
-m_thf@mito = Fol / (2 * 0.25) - (m_2cf + m_1cf + m_10f)
-#m_thf@mito = 40.0
+#c_thf@cytosol = Fol / (2 * 0.75) - (c_5mf + c_2cf + c_1cf + c_10f + dhf)
+c_thf@cytosol = 0.0
+#m_thf@mito = Fol / (2 * 0.25) - (m_2cf + m_1cf + m_10f)
+m_thf@mito = 0.0
 c_5mf@cytosol = 0.0
 c_2cf@cytosol = 0.0
 c_1cf@cytosol = 0.0
